@@ -1,0 +1,57 @@
+{
+  "navBar": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "intro": {
+    "title": "Hi, i'm Melani!",
+    "description": "Full stack developer. My goal is to overcome my limits and face any obstacle that arises in my path. I am passionate about learning new technologies and I am always ready to take on new challenges."
+  },
+  "about": {
+    "title": "About me",
+    "Full Stack Developer": "Full Stack Developer",
+    "description-one": "My interest in this field arose in 2023, the year in which I decided to take a big step that led me to discover the passion that technology generates in me.",
+    "description-two": "I define myself as a disciplined and persevering person. My constant curiosity drives me to overcome challenges with enthusiasm and commitment. I enjoy working in teams, where I can contribute my dedication and skills to achieve shared goals. I have experience working with JavaScript, React Js, Redux Js, Node Js, Express, PostgreSQL, and HTML.",
+    "description-three": "I am excited to continue growing and contributing to the fascinating world of technology. Every day is an opportunity to learn something new and face new challenges, and I am committed to making the most of every experience that comes my way."
+  },
+  "projects": [
+    {
+      "name": "La Ola Urbana",
+      "image": "projects/Surf.png",
+      "description": "agregar descripcion",
+      "skills": [
+        "React",
+        "Redux",
+        "JavaScript",
+        "Node.js",
+        "PostgreSQL",
+        "Express"
+      ],
+      "repository": "https://github.com/Melanialassia/ClientSurf"
+    },
+    {
+      "name": "Pokémons",
+      "image": "projects/Pokemons.png",
+      "description": "I worked as a full-stack developer on a project about Pokémon. The platform offers detailed information about different types of Pokémon, with options for searching, filtering, sorting, creating Pokémon, and pagination.",
+      "skills": [
+        "React",
+        "Redux",
+        "JavaScript",
+        "Node.js",
+        "PostgreSQL",
+        "Express"
+      ],
+      "repository": "https://github.com/Melanialassia/PI-Pokemon"
+    }
+  ],
+  "contact": {
+    "title": "Contact",
+    "description": "If you want to contact me, you can do so through social media or by filling out the contact form. I will respond to you as soon as possible. Thank you!",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "navBar": {
+    "about": "Sobre mí",
+    "skills": "Skills",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "intro": {
+    "title": "Hola, soy Melani!",
+    "description": "Desarrolladora full stack. Mi objetivo es superar mis límites y enfrentar cualquier obstáculo que se presente en mi camino. Me apasiona el aprendizaje de nuevas tecnologías y estoy siempre lista para adentrarme en nuevos desafíos."
+  },
+  "about": {
+    "title": "Sobre mí",
+    "Full Stack Developer": "Desarrolladora Full Stack",
+    "description-one": "Mi interés por este campo surgió en 2023, año en el cual decidí dar un gran paso que me llevó a descubrir la pasión que me genera la tecnología .",
+    "description-two": "Me defino como una persona disciplinada y perseverante. Mi curiosidad constante me impulsa a superar desafíos con entusiasmo y compromiso. Disfruto trabajando en equipo, donde puedo aportar mi dedicación y habilidades para alcanzar metas compartidas. Tengo experiencia trabajando con JavaScript, React Js, Redux Js, Node Js, Express, PostgreSQL y HTML.",
+    "description-three": "Estoy emocionada por seguir creciendo y contribuyendo al fascinante mundo de la tecnología. Cada día es una oportunidad para aprender algo nuevo y enfrentar nuevos retos, y estoy comprometida a aprovechar al máximo cada experiencia que se me presente."
+  },
+  "projects": [
+    {
+      "name": "La Ola Urbana",
+      "image": "projects/Surf.png",
+      "description": "Trabajé como desarrollador full-stack en un proyecto sobre Pokémon. La plataforma ofrece información detallada sobre diferentes tipos de Pokémon, con opciones de búsqueda, filtrado, ordenación, creación de Pokémon y paginación",
+      "skills": ["React", "Redux", "JavaScript", "Node.js", "PostgreSQL", "Express" ],
+      "repository": "https://github.com/Melanialassia/ClientSurf"
+  },
+    {
+      "name": "Pokémons",
+      "image": "projects/Pokemons.png",
+      "description": "Trabajé como desarrollador full-stack en un proyecto sobre Pokémon. La plataforma ofrece información detallada sobre diferentes tipos de Pokémon, con opciones de búsqueda, filtrado, ordenación, creación de Pokémon y paginación",
+      "skills": [
+        "React",
+        "Redux",
+        "JavaScript",
+        "Node.js",
+        "PostgreSQL",
+        "Express"
+      ],
+      "repository": "https://github.com/Melanialassia/PI-Pokemon"
+    }
+  ],
+  "contact": {
+    "title": "Contactame",
+    "description": "Si quieres contactarme conmigo, puedes hacerlo a través de las redes sociales o llenando el formulario de contacto. Te responderé lo antes posible. ¡Gracias!",
+    "name": "Nombre",
+    "email": "Email",
+    "message": "Mensaje",
+    "send": "Enviar"
+  }
+}

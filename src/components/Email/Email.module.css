@@ -1,0 +1,82 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 79px;
+  margin-left: 10%;
+  margin-right: 10%;
+  gap: 6px;
+}
+
+
+.title {
+  color: var(--color-text);
+  font-family: var(--font-rubik);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.contents {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftContent {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.leftContent P {
+  margin: 5px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.emailContainer {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 20px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.form {
+  width: 700px;
+}
+
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contents {
+    width: 100%;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftContent {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .form {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .label {
+    margin-top: 10px;
+  }
+}

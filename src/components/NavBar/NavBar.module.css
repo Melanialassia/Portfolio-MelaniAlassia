@@ -1,0 +1,97 @@
+@import "../../vars.css";
+
+.navBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+  background-color: var(--color-navBar);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.title {
+  font-family: var(--font-rubik);
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-text-pojects);
+}
+
+.hamburgerMenu {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  margin-left: 200px;
+}
+
+.menuItems {
+  display: flex;
+  gap: 47px;
+  list-style: none;
+}
+
+.openMenu {
+  display: flex;
+  z-index: 3;
+}
+
+.menuItems li a {
+  font-size: 25px;
+  color: var(--color-text-pojects);
+  text-decoration: none;
+}
+
+.active {
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 830px) {
+  .navBar {
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+  }
+
+  .menu {
+    position: absolute;
+    margin-right: 10%;
+    right: 20px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+  }
+
+  .hamburgerMenu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menuItems {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    background: var(--color-menu-hamburger);
+    padding: 24px 33px;
+    box-shadow: 0 0 4px 0 rgb(0, 0, 0, 0.25);
+    margin-top: 15px;
+  }
+
+  .openMenu {
+    display: flex;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 935px) {
+.menuItems{
+  gap: 20px;
+}
+}

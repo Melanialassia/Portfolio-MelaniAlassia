@@ -1,0 +1,9 @@
+@import '../../vars.css';
+
+.container{
+    position: relative;
+    margin-top: 79px;
+    z-index: 1;
+    margin-left: 40%;
+    margin-right: 40%;
+}

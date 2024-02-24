@@ -1,0 +1,37 @@
+@import "../../vars.css";
+
+.container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999; 
+  }
+
+.theme{
+    font-family: var(--font-rubik);
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    margin-left: 25px;
+    margin-right: 5px;
+    background: var(--color-icon);
+    border: none;
+    border-radius: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .image {
+    width: 30px;
+    transition: transform 0.3s; 
+}
+
+.theme:hover .image {
+    transform: scale(1.2); 
+}
+
+.theme.pressed {
+  /* Agregar estilos específicos cuando pressed es true */
+}

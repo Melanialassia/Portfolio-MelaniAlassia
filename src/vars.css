@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+:root {
+  /* Colors Ligth*/
+  --color-text: #000000;
+  /* color-intro-title*/
+  --color-title: linear-gradient(
+    90deg,
+    rgb(0, 0, 0) 70%,
+    rgba(17, 18, 18, 0.266) 120%
+  );
+  /*background*/
+  --color-bg: #f1edf2;
+  --color-second-bg: #db51989f;
+  /*navBar background*/
+  --color-navBar:#0505059f;
+  /*menuHamburger*/
+  --color-menu-hamburger: linear-gradient(
+    0deg,
+    rgba(26, 25, 26, 0.709) 0%,
+    rgba(47, 46, 47, 0.756)
+  );
+  /*color about*/
+  --color-about: rgba(227, 191, 175, 0.6);
+  --color-background-about: rgba(12, 12, 12, 0.6);
+  /*color projects*/
+  --color-text-pojects: #fff;
+  --color-projects: linear-gradient(180deg, #232223b9 0%, #13121387 100%);
+  --color-icon-about: rgba(0, 0, 0, 0.459);
+  --color-shadow:0 03px 14px 0 #04152d;
+  /* icon & button*/
+  --color-icon: rgba(0, 0, 0, 0.6);
+  --color-button: rgba(0, 0, 0, 0.79); /* BUTTON*/
+  /* Fonts */
+  --font-roboto: "Roboto";
+  --font-rubik: "Rubik";
+}
+
+[data-theme="dark"] {
+  /* Colors Darck*/
+  --color-text: #fff;
+  /* color-intro-title*/
+  --color-title: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(225, 255, 255, 0) 120%
+  );
+  /*backgruond*/
+  --color-bg: #040404;
+  --color-second-bg: #db51989f;
+  /*navBar background*/
+  --color-navBar:#cb5b959f;
+  /*menu Hamburger*/
+  --color-menu-hamburger: linear-gradient(
+    0deg,
+    rgba(218, 116, 196, 0.903) 0%,
+    rgba(207, 112, 180, 0.668)
+  );
+  /*color About*/
+  --color-about: rgba(230, 150, 232, 042);
+  --color-background-about: rgba(210, 128, 209, 0.293);
+  /*color projects*/
+  --color-text-pojects: #fff;
+  --color-projects: linear-gradient(180deg, #c57bb7b9 0%, #d55ed787 100%);
+  --color-icon-about: rgba(0, 0, 0, 0.459);
+  --color-shadow:0 03px 14px 0 #edeeefd4;
+  /* icon & button*/
+  --color-icon: rgba(210, 128, 209, 0.512);
+  --color-button: #d16ed3c5; /* BUTTON*/
+  /* Fonts */
+  --font-roboto: "Roboto";
+  --font-rubik: "Rubik";
+  transition: all 0.7s ease-in-out;
+}

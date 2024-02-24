@@ -1,0 +1,52 @@
+[
+    {
+        "title": "HTML",
+        "image": "skills/html.png",
+        "URL": "https://en.wikipedia.org/wiki/HTML5"
+    },
+    {
+        "title": "React",
+        "image": "skills/react.png",
+        "URL": "https://reactjs.org/"
+    },
+    {
+        "title": "CSS",
+        "image": "skills/css.png",
+        "URL": "https://www.w3schools.com/css/"
+    },
+    {
+        "title": "JavaScript",
+        "image": "skills/javascript.png",
+        "URL": "https://www.javascript.com/"
+    },
+    {
+        "title": "Redux",
+        "image": "skills/redux.png",
+        "URL": "https://redux.js.org/"
+    },
+    {
+        "title": "Node.js",
+        "image": "skills/nodeJs.png",
+        "URL": "https://nodejs.org/"
+    },
+    {
+        "title": "Express",
+        "image": "skills/express.png",
+        "URL": "https://expressjs.com/"
+    },
+    {
+        "title": "PostgreSQL",
+        "image": "skills/postgresql.png",
+        "URL": "https://www.postgresql.org/"
+    },
+    {
+        "title": "Git",
+        "image": "skills/git.png",
+        "URL": "https://github.com/"
+    },
+    {
+        "title": "Figma",
+        "image": "skills/figma.png",
+        "URL": "https://www.figma.com/"
+    }
+]
