@@ -9,11 +9,6 @@
   padding: 18px 24px;
   max-width: 1000px;
   margin: 25px;
-  transition: transform 0.3s ease;
-}
-
-.container:hover {
-  transform: scale(1.1); 
 }
 
 .image {
@@ -21,6 +16,11 @@
   border-radius: 20px;
   margin-right: 20px;
   margin-bottom: 26px;
+  transition: transform 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.1); 
 }
 
 .content {
@@ -54,6 +54,11 @@
   border-radius: 100px;
   background-color: var(--color-icon-about);
   padding: 2px 22px;
+  transition: transform 0.3s ease;
+}
+
+.skill:hover {
+  transform: scale(1.1); 
 }
 
 .links {
@@ -61,26 +66,12 @@
   margin-top: 26px;
   display: flex;
   justify-content: space-around;
+  transition: transform 0.3s ease;
 }
 
-/* .link {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 25px;
-  margin-right: 5px;
-  background-color: var(--color-icon-about);
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  transition: transform 0.3s ease; 
+.links:hover {
+  transform: scale(1.2); 
 }
-
-/* .link:hover {
-  transform: scale(1.1); 
-}  */
-
 
 @media screen and (max-width: 1225px) {
   .container {

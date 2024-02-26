@@ -35,6 +35,7 @@ const Projects = ({ dark }) => {
               image={p.image}
               description={p.description}
               skills={p.skills}
+              deploy={p.deploy}
               repository={p.repository}
               dark={dark}
             />

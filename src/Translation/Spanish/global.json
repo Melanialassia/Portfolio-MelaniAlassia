@@ -21,9 +21,17 @@
       "name": "La Ola Urbana",
       "image": "projects/Surf.png",
       "description": "El sitio ofrece todo lo necesario para los amantes del surf: desde tablas hasta accesorios. Con una pasarela de pago integrada, notificaciones por correo electrónico, un carrito de compras fácil de usar y un panel de administración completo",
-      "skills": ["React", "Redux", "JavaScript", "Node.js", "PostgreSQL", "Express" ],
+      "skills": [
+        "React",
+        "Redux",
+        "JavaScript",
+        "Node.js",
+        "PostgreSQL",
+        "Express"
+      ],
+      "deploy": "https://client-server-okg3.vercel.app/",
       "repository": "https://github.com/Melanialassia/ClientSurf"
-  },
+    },
     {
       "name": "Pokémons",
       "image": "projects/Pokemons.png",
