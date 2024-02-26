@@ -20,7 +20,7 @@
     {
       "name": "La Ola Urbana",
       "image": "projects/Surf.png",
-      "description": "agregar descripcion",
+      "description": "The site offers everything needed for surf enthusiasts: from boards to accessories. With an integrated payment gateway, email notifications, an easy-to-use shopping cart, and a comprehensive administration panel.",
       "skills": [
         "React",
         "Redux",

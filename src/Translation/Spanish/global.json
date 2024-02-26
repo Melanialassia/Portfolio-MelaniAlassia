@@ -1,7 +1,7 @@
 {
   "navBar": {
     "about": "Sobre mí",
-    "skills": "Skills",
+    "skills": "Habilidades",
     "projects": "Proyectos",
     "contact": "Contacto"
   },
@@ -20,7 +20,7 @@
     {
       "name": "La Ola Urbana",
       "image": "projects/Surf.png",
-      "description": "Trabajé como desarrollador full-stack en un proyecto sobre Pokémon. La plataforma ofrece información detallada sobre diferentes tipos de Pokémon, con opciones de búsqueda, filtrado, ordenación, creación de Pokémon y paginación",
+      "description": "El sitio ofrece todo lo necesario para los amantes del surf: desde tablas hasta accesorios. Con una pasarela de pago integrada, notificaciones por correo electrónico, un carrito de compras fácil de usar y un panel de administración completo",
       "skills": ["React", "Redux", "JavaScript", "Node.js", "PostgreSQL", "Express" ],
       "repository": "https://github.com/Melanialassia/ClientSurf"
   },
