@@ -1,15 +1,17 @@
 //HOOKS
 import { useTranslation } from "react-i18next";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 //FUNCTION
 import { getImageUrl } from "../../../utils";
 //LIBRARY
 import emailjs from "@emailjs/browser";
+import { message } from "antd";
 //STYLE
 import style from "./FormEmail.module.css";
 
 const FormEmail = ({ dark }) => {
   const [t, i18n] = useTranslation("global");
+  const [isSubmitted, setIsSubmitted] = useState(false); //para liampiar el formulario
 
   const iconColorPlane = !dark
     ? getImageUrl("email/plane.png")
@@ -26,7 +28,9 @@ const FormEmail = ({ dark }) => {
       })
       .then(
         () => {
-          console.log("SUCCESS!");
+          message.success(t("message.message"));
+          setIsSubmitted(true); //le indico que se aprobo
+          form.current.reset(); //borro los campos completados por el cliente
         },
         (error) => {
           console.log("FAILED...", error.text);
@@ -50,7 +54,7 @@ const FormEmail = ({ dark }) => {
         name="user_email"
         className={style.input}
         required
-        pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+        pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"
       />
       <label className={style.label}>{t("contact.message")}</label>
       <textarea

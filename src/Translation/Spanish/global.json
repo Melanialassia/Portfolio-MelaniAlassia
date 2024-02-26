@@ -46,5 +46,8 @@
     "email": "Email",
     "message": "Mensaje",
     "send": "Enviar"
+  },
+  "message": {
+    "message": "¡Mensaje eviado con éxito!"
   }
 }

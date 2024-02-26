@@ -36,6 +36,11 @@
   border-radius: 100px;
   box-shadow: var(--color-shadow);
   padding: 12px 15px;
+  transition: transform 0.4s;
+}
+
+.send:hover {
+  transform: scale(1.1);
 }
 
 .image {
@@ -52,5 +57,7 @@
   margin-left: 5px;
   cursor: pointer;
 }
+
+
 
 
