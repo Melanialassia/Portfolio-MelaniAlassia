@@ -11,8 +11,12 @@ import "aos/dist/aos.css";
 //STYLE
 import style from "./Email.module.css";
 
-const Email = () => {
+const Email = ({ dark }) => {
   const [t, i18n] = useTranslation("global");
+
+  const iconColorPlane = !dark
+    ? getImageUrl("email/email.png")
+    : getImageUrl("email/email-black.png");
 
   useEffect(() => {
     AOS.init({ duration: 1000 });
@@ -21,16 +25,14 @@ const Email = () => {
   return (
     <section id="contact" className={style.container}>
       <h2 className={style.title} data-aos="fade-right">
-      {t("contact.title")}
+        {t("contact.title")}
       </h2>
       <div className={style.contents}>
         <div className={style.leftContent}>
-          <p>
-          {t("contact.description")}
-          </p>
+          <p>{t("contact.description")}</p>
           <div className={style.emailContainer}>
             <img
-              src={getImageUrl("email/email.png")}
+              src={iconColorPlane}
               alt="iconoEmail"
               className={style.image}
             />
@@ -38,7 +40,7 @@ const Email = () => {
           </div>
         </div>
         <div className={style.form}>
-          <FormEmail />
+          <FormEmail dark={dark} />
         </div>
       </div>
     </section>

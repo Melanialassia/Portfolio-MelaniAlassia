@@ -8,8 +8,12 @@ import emailjs from "@emailjs/browser";
 //STYLE
 import style from "./FormEmail.module.css";
 
-const FormEmail = () => {
+const FormEmail = ({ dark }) => {
   const [t, i18n] = useTranslation("global");
+
+  const iconColorPlane = !dark
+    ? getImageUrl("email/plane.png")
+    : getImageUrl("email/plane-black.png");
 
   const form = useRef();
 
@@ -57,12 +61,12 @@ const FormEmail = () => {
         maxLength={200}
       />
       <div className={style.send}>
-        <input type="submit" value={t("contact.send")} className={style.inputSend} />
-        <img
-          src={getImageUrl("email/plane.png")}
-          alt="iconPlane"
-          className={style.image}
+        <input
+          type="submit"
+          value={t("contact.send")}
+          className={style.inputSend}
         />
+        <img src={iconColorPlane} alt="iconPlane" className={style.image} />
       </div>
     </form>
   );

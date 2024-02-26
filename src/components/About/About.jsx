@@ -9,13 +9,25 @@ import "aos/dist/aos.css";
 // STYLES
 import style from "./About.module.css";
 
-const About = () => {
+const About = ({ dark }) => {
   const [t, i18n] = useTranslation("global");
 
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
 
+  const iconColorPerson = !dark
+    ? getImageUrl("about/iconAbout.png")
+    : getImageUrl("about/iconAbout-black.png");
+
+  const iconColorComputer = !dark
+    ? getImageUrl("about/computer.png")
+    : getImageUrl("about/computer-black.png");
+
+  const iconColorRocket = !dark
+    ? getImageUrl("about/rocket.png")
+    : getImageUrl("about/rocket-black.png");
+    
   return (
     <section className={style.container} id="about">
       <h2 className={style.title} data-aos="fade-right">
@@ -25,39 +37,33 @@ const About = () => {
         <ul className={style.aboutItems}>
           <li className={style.aboutItem}>
             <img
-              src={getImageUrl("about/iconAbout.png")}
+              src={iconColorPerson}
               alt="iconAbout"
               className={style.image}
             />
             <div className={style.aboutItemText}>
               <h3>{t("about.Full Stack Developer")}</h3>
-              <p>
-              {t("about.description-one")}
-              </p>
+              <p>{t("about.description-one")}</p>
             </div>
           </li>
           <li className={style.aboutItem}>
             <img
-              src={getImageUrl("about/computer.png")}
+              src={iconColorComputer}
               alt="iconComputer"
               className={style.image}
             />
             <div className={style.aboutItemText}>
-              <p>
-              {t("about.description-two")}
-              </p>
+              <p>{t("about.description-two")}</p>
             </div>
           </li>
           <li className={style.aboutItem}>
             <img
-              src={getImageUrl("about/rocket.png")}
+              src={iconColorRocket}
               alt="iconComputer"
               className={style.image}
             />
             <div className={style.aboutItemText}>
-              <p>
-              {t("about.description-three")}
-              </p>
+              <p>{t("about.description-three")}</p>
             </div>
           </li>
         </ul>

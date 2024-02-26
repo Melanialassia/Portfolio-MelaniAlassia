@@ -13,24 +13,26 @@
   --color-bg: #f1edf2;
   --color-second-bg: #db51989f;
   /*navBar background*/
-  --color-navBar:#0505059f;
+  --color-navBar:#6f6d6d9f;
   /*menuHamburger*/
   --color-menu-hamburger: linear-gradient(
     0deg,
-    rgba(26, 25, 26, 0.709) 0%,
-    rgba(47, 46, 47, 0.756)
+    rgba(81, 79, 81, 0.709) 0%,
+    rgba(72, 70, 72, 0.756)
   );
   /*color about*/
-  --color-about: rgba(227, 191, 175, 0.6);
-  --color-background-about: rgba(12, 12, 12, 0.6);
+  --color-about: rgba(242, 240, 238, 0.693);
+  --color-background-about: rgba(149, 146, 146, 0.6);
   /*color projects*/
-  --color-text-pojects: #fff;
-  --color-projects: linear-gradient(180deg, #232223b9 0%, #13121387 100%);
-  --color-icon-about: rgba(0, 0, 0, 0.459);
+  --color-text-pojects: #0c0c0c;
+  --color-projects: linear-gradient(180deg, #969396b9 0%, #55545587 100%);
+  --color-icon-about: rgba(255, 255, 255, 0.442);
   --color-shadow:0 03px 14px 0 #04152d;
+  /* sende text*/
+  --color-email-send:#000000;
   /* icon & button*/
-  --color-icon: rgba(0, 0, 0, 0.6);
-  --color-button: rgba(0, 0, 0, 0.79); /* BUTTON*/
+  --color-icon: rgba(0, 0, 0, 0.452);
+  --color-button: rgba(168, 166, 166, 0.79); /* BUTTON*/
   /* Fonts */
   --font-roboto: "Roboto";
   --font-rubik: "Rubik";
@@ -64,6 +66,8 @@
   --color-projects: linear-gradient(180deg, #c57bb7b9 0%, #d55ed787 100%);
   --color-icon-about: rgba(0, 0, 0, 0.459);
   --color-shadow:0 03px 14px 0 #edeeefd4;
+  /* sende text*/
+  --color-email-send:#fff;
   /* icon & button*/
   --color-icon: rgba(210, 128, 209, 0.512);
   --color-button: #d16ed3c5; /* BUTTON*/

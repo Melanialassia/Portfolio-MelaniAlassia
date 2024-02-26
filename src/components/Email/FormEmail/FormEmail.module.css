@@ -34,7 +34,7 @@
   cursor: pointer;
   background-color: var(--color-button);
   border-radius: 100px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: var(--color-shadow);
   padding: 12px 15px;
 }
 
@@ -47,7 +47,7 @@
   font-size: 18px;
   font-weight: 600;
   border: none;
-  color: var(--color-text-pojects);
+  color: var(--color-email-send);
   background: transparent;
   margin-left: 5px;
   cursor: pointer;

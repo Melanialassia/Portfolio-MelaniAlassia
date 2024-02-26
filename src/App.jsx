@@ -39,12 +39,12 @@ function App() {
 
   return (
     <div className={style.App} data-theme={dark ? "light" : "dark"}>
-      <NavBar changeLanguage={changeLanguage} />
-      <Intro />
-      <About />
-      <Projects />
+      <NavBar changeLanguage={changeLanguage} dark={dark} />
+      <Intro dark={dark} />
+      <About dark={dark} />
+      <Projects dark={dark} />
       <Skills />
-      <Email />
+      <Email dark={dark} />
       <Footer />
       <Theme dark={dark} handleChange={handleChange} />
     </div>

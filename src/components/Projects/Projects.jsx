@@ -12,7 +12,7 @@ import spanish from "../../Translation/Spanish/global.json";
 //STYLE
 import style from "./Projects.module.css";
 
-const Projects = () => {
+const Projects = ({ dark }) => {
   const [t, i18n] = useTranslation("global");
   const currentLanguage = i18n.language || "english";
   const translations = currentLanguage === "english" ? english : spanish;
@@ -36,6 +36,7 @@ const Projects = () => {
               description={p.description}
               skills={p.skills}
               repository={p.repository}
+              dark={dark}
             />
           );
         })}

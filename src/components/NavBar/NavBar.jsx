@@ -6,9 +6,18 @@ import { getImageUrl } from "../../utils";
 // STYLE
 import style from "./NavBar.module.css";
 
-const NavBar = ({ changeLanguage }) => {
+const NavBar = ({ changeLanguage, dark }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("");
+
+  const  iconColorOpenMenu = !dark
+    ? getImageUrl("nav/openMenu.png")
+    : getImageUrl("nav/openMenu-black.png");
+
+  const iconColorCloseMenu = !dark
+    ? getImageUrl("nav/closeMenu.png")
+    : getImageUrl("nav/closeMenu-black.png");
+
 
   const handleSectionChange = (sectionName) => {
     setActiveSection(sectionName);
@@ -28,8 +37,8 @@ const NavBar = ({ changeLanguage }) => {
           className={style.hamburgerMenu}
           src={
             menuOpen
-              ? getImageUrl("nav/closeMenu.png")
-              : getImageUrl("nav/openMenu.png")
+              ? iconColorCloseMenu
+              : iconColorOpenMenu
           }
           alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}

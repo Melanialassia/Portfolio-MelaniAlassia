@@ -14,7 +14,7 @@ const Theme = ({ dark, handleChange }) => {
       >
         <img
           src={
-            dark ? getImageUrl("theme/sun.png") : getImageUrl("theme/moon.png")
+            dark ? getImageUrl("theme/sun-black.png") : getImageUrl("theme/moon.png")
           }
           alt="iconMoon"
           className={style.image}
