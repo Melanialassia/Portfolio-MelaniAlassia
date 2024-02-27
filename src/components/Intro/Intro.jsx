@@ -14,6 +14,11 @@ const Intro = ({ dark }) => {
   // };
 
   const [t, i18n] = useTranslation("global");
+  const currentLanguage = i18n.language;
+  const cvTranslation =
+    currentLanguage === "english"
+      ? getImageUrl("intro/CV/MelaniAlassia-english.pdf")
+      : getImageUrl("intro/CV/MelaniAlassia-spanish.pdf");
 
   const iconColorCv = !dark
     ? getImageUrl("intro/cv.png")
@@ -43,7 +48,6 @@ const Intro = ({ dark }) => {
           })} */}
           <a
             href={"https://linkedin.com/in/melani-alassia-0bb30a1b6"}
-            download="MelaniAlassia.pdf"
             className={style.cv}
           >
             <div>
@@ -56,7 +60,6 @@ const Intro = ({ dark }) => {
           </a>
           <a
             href={"https://github.com/Melanialassia"}
-            download="MelaniAlassia.pdf"
             className={style.cv}
           >
             <div>
@@ -68,8 +71,8 @@ const Intro = ({ dark }) => {
             </div>
           </a>
           <a
-            href={getImageUrl("intro/CV/MelaniAlassia.pdf")}
-            download="MelaniAlassia.pdf"
+            href={cvTranslation}
+            download="MelaniAlassia"
             className={style.cv}
           >
             <div>
