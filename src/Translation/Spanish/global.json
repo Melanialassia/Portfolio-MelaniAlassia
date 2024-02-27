@@ -56,6 +56,7 @@
     "send": "Enviar"
   },
   "message": {
-    "message": "¡Mensaje eviado con éxito!"
+    "message": "¡Mensaje eviado con éxito!",
+    "copyright": "Todos los derechos reservados."
   }
 }

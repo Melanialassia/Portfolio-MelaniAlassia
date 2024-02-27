@@ -29,7 +29,6 @@
         "PostgreSQL",
         "Express"
       ],
-      "deploy": "https://client-server-okg3.vercel.app/",
       "repository": "https://github.com/Melanialassia/ClientSurf"
     },
     {
@@ -56,6 +55,7 @@
     "send": "Send"
   }, 
   "message": {
-    "message": "Message sent successfully!"
+    "message": "Message sent successfully!",
+    "copyright": "All rigths reserved."
   }
 }

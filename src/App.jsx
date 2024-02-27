@@ -45,7 +45,7 @@ function App() {
       <Projects dark={dark} />
       <Skills />
       <Email dark={dark} />
-      <Footer />
+      <Footer dark={dark} />
       <Theme dark={dark} handleChange={handleChange} />
     </div>
   );

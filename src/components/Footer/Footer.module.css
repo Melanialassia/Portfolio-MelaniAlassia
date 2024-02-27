@@ -1,9 +1,30 @@
-@import '../../vars.css';
+@import "../../vars.css";
 
-.container{
-    position: relative;
-    margin-top: 79px;
-    z-index: 1;
-    margin-left: 40%;
-    margin-right: 40%;
+.container {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-top: 79px;
+  z-index: 1;
+  margin-left: 35%;
 }
+.image {
+  margin-right: 5px;
+}
+
+.text {
+    text-align: center;
+    font-family: var(--font-rubik);
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: var(--color-text-pojects);
+}
+
+
+@media screen and (max-width: 320px) { 
+    .container{
+       margin-left: 5%;
+    }
+   }
+
+
