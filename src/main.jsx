@@ -9,7 +9,6 @@ import "@fontsource/roboto";
 //LANGUAGE
 import english from "./Translation/English/global.json";
 import spanish from "./Translation/Spanish/global.json";
-// import spanish from "./Translation/Spanish/global.json";
 //STLYE
 import "./index.css";
 
